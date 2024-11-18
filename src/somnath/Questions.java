@@ -20,10 +20,11 @@ return false;
             }
             c++;
         }
-        if(c*c>n){
-            return true;
-        }
-        return false;
+//        if(c*c>n){
+//            return true;
+//        }
+//        return false;
+        return c*c>n;
 
     }
 }
